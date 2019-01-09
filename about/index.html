@@ -20,7 +20,7 @@
 <meta property="og:url" content="http://yoursite.com/about/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-01-08T12:33:23.475Z">
+<meta property="og:updated_time" content="2019-01-09T03:43:28.131Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="about">
 
@@ -519,6 +519,23 @@ MathJax.Hub.Queue(function() {
         }
     
 </script>
+
+    <script>
+        var originTitle = document.title;
+        var titleTime;
+        document.addEventListener("visibilitychange", function() {
+            if (document.hidden) {
+                document.title = "(つェ⊂) 我藏好了哦~ " + originTitle;
+                clearTimeout(titleTime);
+            }
+            else {
+                document.title = "(*´∇｀*) 被你发现啦~ " + originTitle;
+                titleTime = setTimeout(function() {
+                    document.title = originTitle;
+                }, 2000);
+            }
+        })
+    </script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
