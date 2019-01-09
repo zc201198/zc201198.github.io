@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-01-08T12:20:07.401Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>�ų�</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>你好,Hexo</title>
+    <link href="http://yoursite.com/2018/11/21/%E4%BD%A0%E5%A5%BD-Hexo/"/>
+    <id>http://yoursite.com/2018/11/21/你好-Hexo/</id>
+    <published>2018-11-21T12:40:02.000Z</published>
+    <updated>2019-01-08T12:20:07.401Z</updated>
+    
+    <content type="html"><![CDATA[<a id="more"></a><p>你好！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;p&gt;你好！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
