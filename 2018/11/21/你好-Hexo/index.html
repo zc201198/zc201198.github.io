@@ -393,25 +393,27 @@
 
 
     
-      <div class="duoshuo" id="comments">
-    <div id="comment-box"></div>
-    <div class="ds-thread" id="ds-thread" data-thread-key="2018/11/21/你好-Hexo/" data-title="你好,Hexo" data-url="http://yoursite.com/2018/11/21/你好-Hexo/"></div>
-    <script>
-        var duoshuoQuery = {short_name:""};
-        var loadComment = function(){
-            var d = document, s = d.createElement('script');
-            s.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
-            s.async = true; s.charset = 'UTF-8';
-            (d.head || d.body).appendChild(s);
-        }
+	<section class="livere" id="comments">
+    <!-- ������City�氲װ���� -->
+    <div id="lv-container" data-id="city" data-uid="Your uid">
+    <script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
 
-        
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+       })(document, 'script');
     </script>
-    
-    <script> loadComment(); </script>
+    <noscript> Ϊ����ʹ�����������۹����뼤��JavaScript</noscript>
+    </div>
+    <!-- City�氲װ��������� -->
+</section>
 
-</div>
-    
 
 
 
