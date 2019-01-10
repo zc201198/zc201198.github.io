@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>2019.1.10</title>
+      <link href="/2019/01/10/2019-1-10/"/>
+      <url>/2019/01/10/2019-1-10/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2019-1-10"><a href="#2019-1-10" class="headerlink" title="2019.1.10"></a>2019.1.10</h1><p>&emsp;&emsp;���Ե�����Ļ��ǰ���ң�������������˼��ġ���ף��,���Ÿ���İ��¿��֣���ʱ�������һѧ�ڿ������ѹ�ȥԼ4Сʱ��<br>&emsp;&emsp;�⼸��Ĵ󲿷�ʱ�䶼�����˸����Լ����͵����⣬�Լ�һЩС���ܵ����ӣ�֮ǰ��gitһֱ�ύ����ȥ�������Σ��������ǵ�ǰ������ҳ��<br><img src="https://i.imgur.com/E5cfIti.png" alt="">  </p><h1 id="���˵һ�£�"><a href="#���˵һ�£�" class="headerlink" title="���˵һ�£�"></a>���˵һ�£�</h1><p>&emsp;&emsp;(1)С�������������Ͷ�������ĳ��ѧ�������רҵ��Java��̨������������ѧ�ڲ�ȡʵϰ+����˫ѡ�񣬾���С�����ѧϰ��ʲô��Ҫ�Ľ��ģ��������������·����ۡ�<br>&emsp;&emsp;(2)С����������Ҳ��һ����ʫ�续������ˣ��˴��໥������  </p><h1 id="��̾�����"><a href="#��̾�����" class="headerlink" title="��̾�����"></a>��̾�����</h1><p>&emsp;&emsp;��һ�ڶ�ѧ��C���ԣ��˼�һö(scanf���÷������������ȫ���������ȫ��������ʦ)��<br>&emsp;&emsp;�����һѧ��C++��������Ժϵʵ���ң�������θ���ճ������飬��Ԫ����������������������������棿��ʲô��������<br>&emsp;&emsp;���󺮼٣�����Ҫѧ�ñ�̣�Ӧ���Ǳ��֮·�Ŀ�ʼ�ɣ�<br><img src="https://i.imgur.com/8izbTsD.png" alt=""></p><center>С���ǳ�֮��лIT�����</center><br>�������ӣ�<a href="http://yun.itheima.com/course" target="_blank" rel="noopener">http://yun.itheima.com/course</a><br><br>&emsp;&emsp;��ʱ����Լ��ʮ�죬Java�����﷨���������ԣ��ȵȣ����ǹ���һ�顣������Ƶ���һ���ǹ���jdk1.8������-lambda����ʽ���ǿ���һ���ɱΰ���˵�õ�Java����ָ��ģ�Cָ�뵱ʱ�ɿӵ��ң�<br>��ſ����£���ʰ������ѧȥ�ˡ�<br><br>&emsp;&emsp;һ��ʱ�����֮�죬��̨����ѧϰ�Ѿ��������ֽ׶Ρ������ܽ�֮ǰ��ѧϰҲ���൱�б�Ҫ��(��������»��𲽸���)��<br><img src="https://i.imgur.com/5WKzX1Z.png" alt=""><br><center>��ͼ��Javaѧϰ�Լ����µ�һЩ�ļ�</center><p>�⿴��Ƶ��ԶԶ�����ģ�����Ϊ������ѧУ���������ã�������Ϣ֮��ȥ<a href="https://leetcode-cn.com/" target="_blank" rel="noopener">ţ����</a><br><a href="https://leetcode-cn.com/" target="_blank" rel="noopener">1</a>:<a href="https://www.nowcoder.com" target="_blank" rel="noopener">https://www.nowcoder.com</a><br>����һЩ�����⣬��ְ����������������Լ���ս��(��������)<br><img src="https://i.imgur.com/eDG2lMR.png" alt=""><br><img src="https://i.imgur.com/nGKw5IK.png" alt=""><br><img src="https://i.imgur.com/8JJBIPY.png" alt="">  </p><h1 id="leetcode"><a href="#leetcode" class="headerlink" title="leetcode"></a><a href="https://leetcode-cn.com/" target="_blank" rel="noopener">leetcode</a></h1><p>����������Ӷ��㷨�������Ǻ��а����ģ������Լ�Ҳ����ȥ��   </p><h1 id="����͵ĳ���"><a href="#����͵ĳ���" class="headerlink" title="����͵ĳ���:"></a>����͵ĳ���:</h1><p>&emsp;&emsp;�����ڼ����ĸ��£����ڱ��ش����У����ٷ������������п�أ��ܹ����Լ����뷨��ѧϰ����֪ʶ���������������ҿ�������˷�����</p><h1 id="��չ����"><a href="#��չ����" class="headerlink" title="��չ����:"></a>��չ����:</h1><p>&emsp;&emsp;(1)��Ҫ�Ǽ�������ģ��磺Java��̨���棬���ݽṹ���㷨��ѧϰ���̡�<br>&emsp;&emsp;(2)���й��ڶ�����ĸ���  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ���� </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ��� </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我与面向对象的恩怨情仇</title>
       <link href="/2019/01/09/%E6%88%91%E4%B8%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%81%A9%E6%80%A8%E6%83%85%E4%BB%87/"/>
       <url>/2019/01/09/%E6%88%91%E4%B8%8E%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E7%9A%84%E6%81%A9%E6%80%A8%E6%83%85%E4%BB%87/</url>
