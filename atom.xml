@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-01-13T04:40:28.181Z</updated>
+  <updated>2019-01-17T12:40:26.367Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>闲笔</title>
+    <link href="http://yoursite.com/2019/01/17/%E9%97%B2%E7%AC%94/"/>
+    <id>http://yoursite.com/2019/01/17/闲笔/</id>
+    <published>2019-01-17T11:22:29.000Z</published>
+    <updated>2019-01-17T12:40:26.367Z</updated>
+    
+    <content type="html"><![CDATA[<p>Java定义了一系列规范，我的生活也应当如此。<br><a id="more"></a><br><img src="https://i.imgur.com/ceciX6s.png" alt="">  </p><blockquote><p>小生就读于陕西省榆林市榆阳区崇文西路榆林学院，上图是下学期的课程表(注意:大三下学期)</p></blockquote><h1 id="浅谈"><a href="#浅谈" class="headerlink" title="浅谈"></a>浅谈</h1><p>&emsp;&emsp;未及弱冠之年的我，家里常联系的朋友也就那么几个，不过关系挺铁，遇上什么事都能互相照应。<br><img src="https://i.imgur.com/w1dxtwR.jpg" alt="">  </p><p><center>这是跟他们某天去看电影</center>  </p><hr><p>至于学校生活，大多数时间都是在实验室度过的。<br><img src="https://i.imgur.com/Kt9Nri8.jpg" alt="">  </p><h1 id="想法"><a href="#想法" class="headerlink" title="想法"></a>想法</h1><p>&emsp;&emsp;在屋里修整了约两日半，时间是愈发珍贵，或是看到下学期课表那一刹那，心中迸发出无名的”怒火”，又表现出莫名的无所谓。对啊！上学期曾花了约两个月时间练车，翘课的次数想必现在都数不清，此前约一个月时间准备明年考研，上学期算是”研路夭折”了。<br>&emsp;&emsp;我是那么得相信自己的选择，毕竟现在我得到了很多自己想要的，别人是无法体会的。有些人哀怨自己的时间为什么这么短，殊不知或许意识到课中大把时间不知不觉得逝去(我喜欢走自己的路，并且不愿将这四年的某些不适合我的课程或是全部，空白流逝，与未来做赌注)。<br>&emsp;&emsp;在乎那看似冠冕堂皇的学分，我觉得是不值得的，或是清楚点，面向学习位于前列的人，知识不在于多，在于自己的兴趣与职业发展。<br>&emsp;&emsp;我向往的大学生活，或是名誉教授的讲座，或是文体活动，或是外出实践，或是一系列自己意想不到的有趣生活，似乎很少尝试过。其实现在看来，是正确的，你是个末尾二流大学的学生，跟十多年前的专科是一样的，你现在应当做的事是考取研究生，这才算是紧跟着当代大学生发展的步伐，而不是做一些看似冠冕堂皇的事情，得一些只在本院认可的”荣誉证书”(毕竟自己的能力也就那样)。<br>&emsp;&emsp;把握好剩下的大学生活，做自己喜欢的事(自己基本也就剩下编程这件事情了)，未来的某天，自己失去的或者努力得到的那种校园生活，等着你开启。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Java定义了一系列规范，我的生活也应当如此。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    
+    
+      <category term="大学" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+      <category term="愈发珍贵" scheme="http://yoursite.com/tags/%E6%84%88%E5%8F%91%E7%8F%8D%E8%B4%B5/"/>
+    
+  </entry>
   
   <entry>
     <title>Java学习|编程基础(上)</title>
