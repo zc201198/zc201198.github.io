@@ -370,7 +370,8 @@
 <li>标识符是严格区分大小写的。 </li>
 </ol>
 <hr>
-<h2 id="Java中的关键字"><a href="#Java中的关键字" class="headerlink" title="Java中的关键字"></a>Java中的关键字</h2><table>
+<h2 id="Java中的关键字"><a href="#Java中的关键字" class="headerlink" title="Java中的关键字"></a>Java中的关键字</h2><div class="table-container">
+<table>
 <thead>
 <tr>
 <th style="text-align:left">关键字</th>
@@ -408,12 +409,14 @@
 </tr>
 </tbody>
 </table>
+</div>
 <hr>
 <h2 id="Java中的数据类型"><a href="#Java中的数据类型" class="headerlink" title="Java中的数据类型"></a>Java中的数据类型</h2><p><img src="https://i.imgur.com/vyRKR9l.jpg" alt="">  </p>
 <blockquote>
 <p>Java是一种强类型语言，在Java中存储的数据都是有类型的，而且必须在编译时确定其类型。<br>在Java的范畴中，基本数据类型变量存储的是数据本身，而引用数据类型存储的是保存数据的空间地址  </p>
 </blockquote>
 <p>常用的数据类型  </p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -456,6 +459,7 @@
 </tr>
 </tbody>
 </table>
+</div>
 <hr>
 <p>Java中变量使用规则:  </p>
 <ol>
@@ -482,15 +486,14 @@ int avg2=(int)avg1;
 final String LOVE=&quot;imooc&quot;; 
 </code></pre><blockquote>
 <p>常量名一般使用大写字符。<br>程序中使用常量可以提高代码的可维护性。</p>
-</blockquote>
 <hr>
-<h2 id="Java中的运算符"><a href="#Java中的运算符" class="headerlink" title="Java中的运算符"></a>Java中的运算符</h2><blockquote>
-<p>运算符用于对数据进行算术运算、赋值、比较等操作。  </p>
+<h2 id="Java中的运算符"><a href="#Java中的运算符" class="headerlink" title="Java中的运算符"></a>Java中的运算符</h2><p>运算符用于对数据进行算术运算、赋值、比较等操作。  </p>
 </blockquote>
 <p>可分为:  </p>
 <ol>
 <li>算术运算符:<br>&emsp;&emsp;主要用于进行基本的算术运算，如加法、减法、乘法、除法等  </li>
 </ol>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -531,16 +534,18 @@ final String LOVE=&quot;imooc&quot;;
 <td style="text-align:center">int i=1；i++</td>
 </tr>
 <tr>
-<td style="text-align:center">–</td>
+<td style="text-align:center">—</td>
 <td style="text-align:center">自减1</td>
-<td style="text-align:center">int a=2;a–</td>
+<td style="text-align:center">int a=2;a—</td>
 </tr>
 </tbody>
 </table>
+</div>
 <blockquote>
-<p> 其中，++ 和 – 既可以出现在操作数的左边，也可以出现在右边，但结果是不同的!<br> a++:先赋值，后自增;<br>++a:先自增，后赋值。<br>自增和自减运算符只能用于操作变量，不能直接用于操作数值或常量！例如 5++ 、 8– 等写法都是错误的!  </p>
+<p> 其中，++ 和 — 既可以出现在操作数的左边，也可以出现在右边，但结果是不同的!<br> a++:先赋值，后自增;<br>++a:先自增，后赋值。<br>自增和自减运算符只能用于操作变量，不能直接用于操作数值或常量！例如 5++ 、 8— 等写法都是错误的!  </p>
 </blockquote>
 <p>2.赋值运算符:<br>&emsp;&emsp;将常量，变量或表达式的值赋给某一变量</p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -582,7 +587,9 @@ final String LOVE=&quot;imooc&quot;;
 </tr>
 </tbody>
 </table>
+</div>
 <p>3.比较运算符:<br>&emsp;&emsp;比较运算符用于对两个数值或变量进行比较，其结果是一个布尔值(true或false)  </p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -624,6 +631,7 @@ final String LOVE=&quot;imooc&quot;;
 </tr>
 </tbody>
 </table>
+</div>
 <blockquote>
 <p>注意:  </p>
 </blockquote>
@@ -635,6 +643,7 @@ final String LOVE=&quot;imooc&quot;;
 <li>== 、 != 两边的操作数既可以是数值类型，也可以是引用类型  </li>
 </ol>
 <p>4.逻辑运算符:<br>&emsp;&emsp;逻辑运算主要用于对布尔型的数据进行操作，其结果仍为布尔型数据  </p>
+<div class="table-container">
 <table>
 <thead>
 <tr>
@@ -666,14 +675,11 @@ final String LOVE=&quot;imooc&quot;;
 </tr>
 </tbody>
 </table>
+</div>
 <p>5.条件运算符:  </p>
 <blockquote>
 <p>条件运算符（ ? : ）也称为 “三元运算符”。</p>
-</blockquote>
-<blockquote>
 <p>语法形式：布尔表达式 ？ 表达式1 ：表达式2</p>
-</blockquote>
-<blockquote>
 <p>运算过程：如果布尔表达式的值为 true ，则返回 表达式1 的值，否则返回 表达式2 的值  </p>
 </blockquote>
 <p>如:  </p>
@@ -1000,5 +1006,20 @@ MathJax.Hub.Queue(function() {
 <script type="text/javascript" src="/js/love.js"></script>
 <!-- 雪花特效 -->
 <!-- <script type="text/javascript" src="/js/snow.js"></script> -->
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
 </html>
