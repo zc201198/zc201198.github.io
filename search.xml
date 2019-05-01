@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Java后端学习路线</title>
+      <link href="/2019/05/01/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+      <url>/2019/05/01/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+      
+        <content type="html"><![CDATA[<p>也算是对学习一年多的Java有了交代。<br><a id="more"></a><br>学习于黑马程序员所开源视频。</p><h1 id="基础阶段"><a href="#基础阶段" class="headerlink" title="基础阶段"></a>基础阶段</h1><p><img src="/2019/05/01/Java后端学习路线/TIM截图20190214112057.png" alt=""><br>&emsp;&emsp;如上图，此视频主要是针对想要快速了解Java这类人群，或是遗忘某一内存模型，集合的内部实现。视频的后两天会是Jdk1.8新特性和函数式编程，是学习新知识的快速捷径。<br>&emsp;&emsp;我是从这个视频开始入门的，老师也讲得生动、详细（里面有个”三国”的案例是不错的，在面向对象章节那块）。<br>&emsp;&emsp;视频链接：<a href="http://yun.itheima.com/course/269.html" target="_blank" rel="noopener">http://yun.itheima.com/course/269.html</a>  </p><h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><p>&emsp;&emsp;后台开发，免不了要跟数据库打交道，此阶段需了解工具类及其如何使用，sql的基本语法，在此基础上进行项目实战，如下:<br><img src="/2019/05/01/Java后端学习路线/TIM截图20190214154859.png" alt=""><br>视频链接:<a href="http://yun.itheima.com/course/229.html" target="_blank" rel="noopener">http://yun.itheima.com/course/229.html</a>  </p><h1 id="Web开发阶段"><a href="#Web开发阶段" class="headerlink" title="Web开发阶段"></a>Web开发阶段</h1><p>&emsp;&emsp;如今的后台开发需懂得几个前台框架，所以网页制作也是必须了解的。  </p><h2 id="前台储备"><a href="#前台储备" class="headerlink" title="前台储备"></a>前台储备</h2><p>&emsp;&emsp;界面不够美观？展现图片太大？目录结构不够严谨？改嘛，去找前台！从添加各类标签，或调整各方面属性，或许是我最直接的感受。<br>&emsp;&emsp;最原生态的静态网页html，到动态网页，需添加js脚本，又或是经包装过的jquery,了解是必要的。<br>至于bootstrap,vue等等，是在此基础之上所需学习的框架。</p><h2 id="后台基础"><a href="#后台基础" class="headerlink" title="后台基础"></a>后台基础</h2><p>&emsp;&emsp;后台中最基础也是最重要的是这条线:servlet+jsp+mysql(这点是毋庸置疑的)。以此为中心，周围围绕着ajax,事务处理，抓包工具获得的信息分析，以及增删改查。  </p><blockquote><p>掌握以上知识便可以开发一个简单的系统，如下参考:<br><img src="/2019/05/01/Java后端学习路线/TIM截图20190214161736.png" alt=""> </p></blockquote><p>视频链接:<a href="http://yun.itheima.com/course/237.html" target="_blank" rel="noopener">http://yun.itheima.com/course/237.html</a></p><h2 id="框架开发"><a href="#框架开发" class="headerlink" title="框架开发"></a>框架开发</h2><p>&emsp;&emsp;谈到框架就不得不提Spring全家桶，为系统的开发注入了无限的活力，在面试当中，如当下火热的springboot或是微服务，基本的环境搭建和使用是必须的，spring源码的内部剖析则会为本次面试加分。  </p><blockquote><p>听过这么一句话:”在系统的开发中，框架的份量会占据大半片江山，而自己手动写的不足10%.”  </p></blockquote><p>&emsp;&emsp;开发不会是一个人的事情，需要工具进行管理，如svn，maven，gradle。  </p><h1 id="福利到"><a href="#福利到" class="headerlink" title="福利到"></a>福利到</h1><p>下面是我这一年多所认为的精华，分享给众友:<br>链接：<a href="https://pan.baidu.com/s/1J6fkVH-QK8Ktsj4d6hcuDg" target="_blank" rel="noopener">https://pan.baidu.com/s/1J6fkVH-QK8Ktsj4d6hcuDg </a><br>提取码：fyrv。</p><hr><p>编程是用尽一生所去追求的事业，无论结果如何。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 开源 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Springboot学习</title>
       <link href="/2019/05/01/Springboot%E5%AD%A6%E4%B9%A0/"/>
       <url>/2019/05/01/Springboot%E5%AD%A6%E4%B9%A0/</url>
@@ -25,31 +44,6 @@
             <tag> 简化 </tag>
             
             <tag> Springboot </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Java后端学习路线</title>
-      <link href="/2019/02/14/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
-      <url>/2019/02/14/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
-      
-        <content type="html"><![CDATA[<p>也算是对学习一年多的Java有了交代。<br><a id="more"></a><br>学习于黑马程序员所开源视频。</p><h1 id="基础阶段"><a href="#基础阶段" class="headerlink" title="基础阶段"></a>基础阶段</h1><p><img src="https://i.imgur.com/OHFSI9O.png" alt=""><br>&emsp;&emsp;如上图，此视频主要是针对想要快速了解Java这类人群，或是遗忘某一内存模型，集合的内部实现。视频的后两天会是Jdk1.8新特性和函数式编程，是学习新知识的快速捷径。<br>&emsp;&emsp;我是从这个视频开始入门的，老师也讲得生动、详细（里面有个”三国”的案例是不错的，在面向对象章节那块）。<br>&emsp;&emsp;视频链接：<a href="http://yun.itheima.com/course/269.html" target="_blank" rel="noopener">http://yun.itheima.com/course/269.html</a>  </p><h2 id="数据库"><a href="#数据库" class="headerlink" title="数据库"></a>数据库</h2><p>&emsp;&emsp;后台开发，免不了要跟数据库打交道，此阶段需了解工具类及其如何使用，sql的基本语法，在此基础上进行项目实战，如下:<br><img src="https://i.imgur.com/JdBPvDW.png" alt=""><br>视频链接:<a href="http://yun.itheima.com/course/229.html" target="_blank" rel="noopener">http://yun.itheima.com/course/229.html</a>  </p><h1 id="Web开发阶段"><a href="#Web开发阶段" class="headerlink" title="Web开发阶段"></a>Web开发阶段</h1><p>&emsp;&emsp;如今的后台开发需懂得几个前台框架，所以网页制作也是必须了解的。  </p><h2 id="前台储备"><a href="#前台储备" class="headerlink" title="前台储备"></a>前台储备</h2><p>&emsp;&emsp;界面不够美观？展现图片太大？目录结构不够严谨？改嘛，去找前台！从添加各类标签，或调整各方面属性，或许是我最直接的感受。<br>&emsp;&emsp;最原生态的静态网页html，到动态网页，需添加js脚本，又或是经包装过的jquery,了解是必要的。<br>至于bootstrap,vue等等，是在此基础之上所需学习的框架。</p><h2 id="后台基础"><a href="#后台基础" class="headerlink" title="后台基础"></a>后台基础</h2><p>&emsp;&emsp;后台中最基础也是最重要的是这条线:servlet+jsp+mysql(这点是毋庸置疑的)。以此为中心，周围围绕着ajax,事务处理，抓包工具获得的信息分析，以及增删改查。  </p><blockquote><p>掌握以上知识便可以开发一个简单的系统，如下参考:<br><img src="https://i.imgur.com/ADgmgAr.png" alt="">  </p></blockquote><p>视频链接:<a href="http://yun.itheima.com/course/237.html" target="_blank" rel="noopener">http://yun.itheima.com/course/237.html</a></p><h2 id="框架开发"><a href="#框架开发" class="headerlink" title="框架开发"></a>框架开发</h2><p>&emsp;&emsp;谈到框架就不得不提Spring全家桶，为系统的开发注入了无限的活力，在面试当中，如当下火热的springboot或是微服务，基本的环境搭建和使用是必须的，spring源码的内部剖析则会为本次面试加分。  </p><blockquote><p>听过这么一句话:”在系统的开发中，框架的份量会占据大半片江山，而自己手动写的不足10%.”  </p></blockquote><p>&emsp;&emsp;开发不会是一个人的事情，需要工具进行管理，如svn，maven，gradle。  </p><h1 id="福利到"><a href="#福利到" class="headerlink" title="福利到"></a>福利到</h1><p>下面是我这一年多所认为的精华，分享给众友:<br>链接：<a href="https://pan.baidu.com/s/1J6fkVH-QK8Ktsj4d6hcuDg" target="_blank" rel="noopener">https://pan.baidu.com/s/1J6fkVH-QK8Ktsj4d6hcuDg </a><br>提取码：fyrv。</p><hr><p>编程是用尽一生所去追求的事业，无论结果如何。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 开源 </tag>
             
         </tags>
       
@@ -160,19 +154,6 @@
             <tag> 初衷 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>你好,Hexo</title>
-      <link href="/2018/11/21/%E4%BD%A0%E5%A5%BD-Hexo/"/>
-      <url>/2018/11/21/%E4%BD%A0%E5%A5%BD-Hexo/</url>
-      
-        <content type="html"><![CDATA[<a id="more"></a><p>你好，这是我的第一篇博客！</p>]]></content>
-      
-      
       
     </entry>
     
