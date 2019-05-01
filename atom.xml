@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Zc</title>
+  <title>Zc&#39;s blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="/"/>
   <updated>2019-02-14T09:00:01.030Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>/</id>
   
   <author>
     <name>�ų�</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Java后端学习路线</title>
-    <link href="http://yoursite.com/2019/02/14/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
-    <id>http://yoursite.com/2019/02/14/Java后端学习路线/</id>
+    <link href="/2019/02/14/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    <id>/2019/02/14/Java后端学习路线/</id>
     <published>2019-02-14T03:05:58.000Z</published>
     <updated>2019-02-14T09:00:01.030Z</updated>
     
@@ -31,17 +31,17 @@
     
     </summary>
     
-      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+      <category term="Java" scheme="/categories/Java/"/>
     
     
-      <category term="开源" scheme="http://yoursite.com/tags/%E5%BC%80%E6%BA%90/"/>
+      <category term="开源" scheme="/tags/%E5%BC%80%E6%BA%90/"/>
     
   </entry>
   
   <entry>
     <title>闲笔</title>
-    <link href="http://yoursite.com/2019/01/17/%E9%97%B2%E7%AC%94/"/>
-    <id>http://yoursite.com/2019/01/17/闲笔/</id>
+    <link href="/2019/01/17/%E9%97%B2%E7%AC%94/"/>
+    <id>/2019/01/17/闲笔/</id>
     <published>2019-01-17T11:22:29.000Z</published>
     <updated>2019-01-17T12:40:26.367Z</updated>
     
@@ -53,19 +53,19 @@
     
     </summary>
     
-      <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="大学" scheme="http://yoursite.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+      <category term="大学" scheme="/tags/%E5%A4%A7%E5%AD%A6/"/>
     
-      <category term="愈发珍贵" scheme="http://yoursite.com/tags/%E6%84%88%E5%8F%91%E7%8F%8D%E8%B4%B5/"/>
+      <category term="愈发珍贵" scheme="/tags/%E6%84%88%E5%8F%91%E7%8F%8D%E8%B4%B5/"/>
     
   </entry>
   
   <entry>
     <title>Java学习|编程基础(上)</title>
-    <link href="http://yoursite.com/2019/01/12/Java%E5%AD%A6%E4%B9%A0-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80(%E4%B8%8A)/"/>
-    <id>http://yoursite.com/2019/01/12/Java学习-编程基础(上)/</id>
+    <link href="/2019/01/12/Java%E5%AD%A6%E4%B9%A0-%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80(%E4%B8%8A)/"/>
+    <id>/2019/01/12/Java学习-编程基础(上)/</id>
     <published>2019-01-12T07:17:18.000Z</published>
     <updated>2019-01-13T04:40:28.181Z</updated>
     
@@ -77,23 +77,23 @@
     
     </summary>
     
-      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+      <category term="Java" scheme="/categories/Java/"/>
     
     
-      <category term="标识符" scheme="http://yoursite.com/tags/%E6%A0%87%E8%AF%86%E7%AC%A6/"/>
+      <category term="标识符" scheme="/tags/%E6%A0%87%E8%AF%86%E7%AC%A6/"/>
     
-      <category term="关键字" scheme="http://yoursite.com/tags/%E5%85%B3%E9%94%AE%E5%AD%97/"/>
+      <category term="关键字" scheme="/tags/%E5%85%B3%E9%94%AE%E5%AD%97/"/>
     
-      <category term="数据类型" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
+      <category term="数据类型" scheme="/tags/%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/"/>
     
-      <category term="运算符" scheme="http://yoursite.com/tags/%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
+      <category term="运算符" scheme="/tags/%E8%BF%90%E7%AE%97%E7%AC%A6/"/>
     
   </entry>
   
   <entry>
     <title>Java学习|Jdk的获取及环境的配置</title>
-    <link href="http://yoursite.com/2019/01/12/Java%E5%AD%A6%E4%B9%A0-Jdk%E7%9A%84%E8%8E%B7%E5%8F%96%E5%8F%8A%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
-    <id>http://yoursite.com/2019/01/12/Java学习-Jdk的获取及环境的配置/</id>
+    <link href="/2019/01/12/Java%E5%AD%A6%E4%B9%A0-Jdk%E7%9A%84%E8%8E%B7%E5%8F%96%E5%8F%8A%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+    <id>/2019/01/12/Java学习-Jdk的获取及环境的配置/</id>
     <published>2019-01-12T04:35:30.000Z</published>
     <updated>2019-01-12T07:15:45.154Z</updated>
     
@@ -105,17 +105,17 @@
     
     </summary>
     
-      <category term="Java" scheme="http://yoursite.com/categories/Java/"/>
+      <category term="Java" scheme="/categories/Java/"/>
     
     
-      <category term="环境变量" scheme="http://yoursite.com/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
+      <category term="环境变量" scheme="/tags/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F/"/>
     
   </entry>
   
   <entry>
     <title>2019.1.10</title>
-    <link href="http://yoursite.com/2019/01/10/2019-1-10/"/>
-    <id>http://yoursite.com/2019/01/10/2019-1-10/</id>
+    <link href="/2019/01/10/2019-1-10/"/>
+    <id>/2019/01/10/2019-1-10/</id>
     <published>2019-01-10T09:39:19.000Z</published>
     <updated>2019-01-12T04:40:25.722Z</updated>
     
@@ -127,17 +127,17 @@
     
     </summary>
     
-      <category term="生活" scheme="http://yoursite.com/categories/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-      <category term="初衷" scheme="http://yoursite.com/tags/%E5%88%9D%E8%A1%B7/"/>
+      <category term="初衷" scheme="/tags/%E5%88%9D%E8%A1%B7/"/>
     
   </entry>
   
   <entry>
     <title>你好,Hexo</title>
-    <link href="http://yoursite.com/2018/11/21/%E4%BD%A0%E5%A5%BD-Hexo/"/>
-    <id>http://yoursite.com/2018/11/21/你好-Hexo/</id>
+    <link href="/2018/11/21/%E4%BD%A0%E5%A5%BD-Hexo/"/>
+    <id>/2018/11/21/你好-Hexo/</id>
     <published>2018-11-21T12:40:02.000Z</published>
     <updated>2019-01-09T03:39:49.332Z</updated>
     
