@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Java学习|Jdk的获取及环境的配置</title>
+      <link href="/2019/05/01/Java%E5%AD%A6%E4%B9%A0-Jdk%E7%9A%84%E8%8E%B7%E5%8F%96%E5%8F%8A%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
+      <url>/2019/05/01/Java%E5%AD%A6%E4%B9%A0-Jdk%E7%9A%84%E8%8E%B7%E5%8F%96%E5%8F%8A%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<p>Java是最流行于服务器端的编程语言。<br><a id="more"></a></p><h1 id="认识Java"><a href="#认识Java" class="headerlink" title="认识Java"></a>认识Java</h1><p>&emsp;&emsp;Java是由Sun公司于1995年推出的一门面向对象编程语言。<br>&emsp;&emsp;Java可运行于多个平台，如Mac,Windows等等。<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/Java.jpg" alt=""></p><h1 id="Jdk的获取"><a href="#Jdk的获取" class="headerlink" title="Jdk的获取"></a>Jdk的获取</h1><p>&emsp;&emsp;下面以Win10X64位系统，谷歌浏览器为例<br>&emsp;&emsp;首先进入<a href="http://www.baidu.com" target="_blank" rel="noopener">http://www.baidu.com</a>，搜索框输入Jdk，会出现<br>以下界面:<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112110017.png" alt=""><br>&emsp;&emsp;点击第一个链接，会进入Oracle官网(Jdk已经更新到11了，真是让人吃不消啊)，点击Download。<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112110337.png" alt=""><br>&emsp;&emsp;注意：根据你的操作系统勾选合适的选项，这里我选择视窗，.exe文件(还需同意使用协议)，下面会进行下载。<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112110550.png" alt=""><br>下图是下载好的exe文件，双击：<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112111523.png" alt=""><br>点击下一步:<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112111654.png" alt=""><br>&emsp;&emsp;这里我选择安装到D盘(源代码下拉菜单选择第二项：此功能及所有子功能将安装在本地硬盘上。),点击下一步。<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112111823.png" alt=""><br>下面是安装进度条:<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112112207.png" alt=""><br>安装完成，点击关闭(注意:jdk1.8之前版本会选择Jre位置，请参考百度)<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112112308.png" alt=""></p><h1 id="环境变量的配置"><a href="#环境变量的配置" class="headerlink" title="环境变量的配置"></a>环境变量的配置</h1><p>右击此电脑，选择 属性<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112112759.png" alt=""><br>选择 高级系统设置，弹出的系统属性窗口，选择 环境变量<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112113038.png" alt=""><br>&emsp;&emsp;寻找 系统变量，新建CLASSPATH(变量名输入CLASSPATH,变量值输入 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar 注意最前面有一点)<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112113418.png" alt=""><br>&emsp;&emsp;系统变量中新建 JAVA_HOME变量，变量值选择Jdk安装位置(由于自己电脑安装多个Jdk，故变量名后有版本号，若初次安装，不用写版本号)<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112114112.png" alt=""><br>系统变量寻找Path变量名，在变量值追加 %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112114826.png" alt="">  </p><h1 id="测试安装是否成功"><a href="#测试安装是否成功" class="headerlink" title="测试安装是否成功"></a>测试安装是否成功</h1><p>Windows+R键，打开 运行窗口，输入 cmd指令,打开DOS窗口<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112115058.png" alt=""><br>&emsp;&emsp;分别输入 java,javac,java -version(若出现类似下面结果，版本号检测出来，则安装和配置成功)<br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112115203.png" alt=""><br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112115319.png" alt=""><br><img src="/2019/05/01/Java学习-Jdk的获取及环境的配置/TIM截图20190112115435.png" alt="">  </p><p>地基已经搭好了，接下来就是盖房子了！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 环境变量 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java后端学习路线</title>
       <link href="/2019/05/01/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
       <url>/2019/05/01/Java%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
@@ -102,31 +127,6 @@
             <tag> 数据类型 </tag>
             
             <tag> 运算符 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Java学习|Jdk的获取及环境的配置</title>
-      <link href="/2019/01/12/Java%E5%AD%A6%E4%B9%A0-Jdk%E7%9A%84%E8%8E%B7%E5%8F%96%E5%8F%8A%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE/"/>
-      <url>/2019/01/12/Java%E5%AD%A6%E4%B9%A0-Jdk%E7%9A%84%E8%8E%B7%E5%8F%96%E5%8F%8A%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE/</url>
-      
-        <content type="html"><![CDATA[<p>Java是最流行于服务器端的编程语言。<br><a id="more"></a></p><h1 id="认识Java"><a href="#认识Java" class="headerlink" title="认识Java"></a>认识Java</h1><p>&emsp;&emsp;Java是由Sun公司于1995年推出的一门面向对象编程语言。<br>&emsp;&emsp;Java可运行于多个平台，如Mac,Windows等等。<br><img src="https://i.imgur.com/OTl0BRD.jpg" alt=""></p><h1 id="Jdk的获取"><a href="#Jdk的获取" class="headerlink" title="Jdk的获取"></a>Jdk的获取</h1><p>&emsp;&emsp;下面以Win10X64位系统，谷歌浏览器为例<br>&emsp;&emsp;首先进入<a href="http://www.baidu.com" target="_blank" rel="noopener">http://www.baidu.com</a>，搜索框输入Jdk，会出现<br>以下界面:<br><img src="https://i.imgur.com/HGPl5ze.png" alt=""><br>&emsp;&emsp;点击第一个链接，会进入Oracle官网(Jdk已经更新到11了，真是让人吃不消啊)，点击Download。<br><img src="https://i.imgur.com/SX4OFnL.png" alt=""><br>&emsp;&emsp;注意：根据你的操作系统勾选合适的选项，这里我选择视窗，.exe文件(还需同意使用协议)，下面会进行下载。<br><img src="https://i.imgur.com/duW4Jfp.png" alt=""><br>下图是下载好的exe文件，双击：<br><img src="https://i.imgur.com/oLurzNq.png" alt=""><br>点击下一步:<br><img src="https://i.imgur.com/JXsx0ok.png" alt=""><br>&emsp;&emsp;这里我选择安装到D盘(源代码下拉菜单选择第二项：此功能及所有子功能将安装在本地硬盘上。),点击下一步。<br><img src="https://i.imgur.com/XXL3AHD.png" alt=""><br>下面是安装进度条:<br><img src="https://i.imgur.com/WVuzxTx.png" alt=""><br>安装完成，点击关闭(注意:jdk1.8之前版本会选择Jre位置，请参考百度)<br><img src="https://i.imgur.com/qBWygFi.png" alt=""></p><h1 id="环境变量的配置"><a href="#环境变量的配置" class="headerlink" title="环境变量的配置"></a>环境变量的配置</h1><p>右击此电脑，选择 属性<br><img src="https://i.imgur.com/2mIMqxP.png" alt=""><br>选择 高级系统设置，弹出的系统属性窗口，选择 环境变量<br><img src="https://i.imgur.com/OwycMSf.png" alt=""><br>&emsp;&emsp;寻找 系统变量，新建CLASSPATH(变量名输入CLASSPATH,变量值输入 .;%JAVA_HOME%\lib;%JAVA_HOME%\lib\tools.jar 注意最前面有一点)<br><img src="https://i.imgur.com/HgGZbtp.png" alt=""><br>&emsp;&emsp;系统变量中新建 JAVA_HOME变量，变量值选择Jdk安装位置(由于自己电脑安装多个Jdk，故变量名后有版本号，若初次安装，不用写版本号)<br><img src="https://i.imgur.com/BdmEdCE.png" alt=""><br>系统变量寻找Path变量名，在变量值追加 %JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;<br><img src="https://i.imgur.com/hmY5t5l.png" alt="">  </p><h1 id="测试安装是否成功"><a href="#测试安装是否成功" class="headerlink" title="测试安装是否成功"></a>测试安装是否成功</h1><p>Windows+R键，打开 运行窗口，输入 cmd指令,打开DOS窗口<br><img src="https://i.imgur.com/JYbizJG.png" alt=""><br>&emsp;&emsp;分别输入 java,javac,java -version(若出现类似下面结果，版本号检测出来，则安装和配置成功)<br><img src="https://i.imgur.com/0au9Jdr.png" alt=""><br><img src="https://i.imgur.com/iBcjh24.png" alt=""><br><img src="https://i.imgur.com/Si2SdUs.png" alt="">  </p><p>地基已经搭好了，接下来就是盖房子了！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Java </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 环境变量 </tag>
             
         </tags>
       
