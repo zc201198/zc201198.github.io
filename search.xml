@@ -8,7 +8,7 @@
       <link href="/2019/05/01/Springboot%E5%AD%A6%E4%B9%A0/"/>
       <url>/2019/05/01/Springboot%E5%AD%A6%E4%B9%A0/</url>
       
-        <content type="html"><![CDATA[<p>约定优于配置，赶上了时代的潮流？<br><a id="more"></a>  </p><blockquote><p>5.1，给自己放个假先。</p><h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>&emsp;&emsp;使用Springboot,可以很轻松创建独立运行的程序，非常容易构建独立的服务组件，是实现分布式架构、微服务架构利器。<br>&emsp;&emsp;Spring boot简化了第三方包的引用，通过提供的starter，简化了依赖包的配置。 </p><h1 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h1><ul><li>轻松创建独立的Spring应用程序。</li><li>内嵌Tomcat、jetty等web容器，不需要部署WAR文件。</li><li>提供一系列的“starter” 来简化的Maven配置，不需要添加很多依赖。</li><li>开箱即用，尽可能自动配置Spring。</li></ul></blockquote><hr><blockquote><p>一条搬砖流程：Spring+MyBatis+Freemarker，作为近一段时间的收获。  </p></blockquote><p>&emsp;&emsp;下面是项目目录结构:<br><img src="https://i.imgur.com/aGtlmdC.png" alt=""><br><img src="https://i.imgur.com/eoB8PxI.png" alt=""> </p>]]></content>
+        <content type="html"><![CDATA[<p>约定优于配置，赶上了时代的潮流？<br><a id="more"></a>  </p><blockquote><p>5.1，给自己放个假先。</p><h2 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h2><p>&emsp;&emsp;使用Springboot,可以很轻松创建独立运行的程序，非常容易构建独立的服务组件，是实现分布式架构、微服务架构利器。<br>&emsp;&emsp;Spring boot简化了第三方包的引用，通过提供的starter，简化了依赖包的配置。 </p><h2 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h2><ul><li>轻松创建独立的Spring应用程序。</li><li>内嵌Tomcat、jetty等web容器，不需要部署WAR文件。</li><li>提供一系列的“starter” 来简化的Maven配置，不需要添加很多依赖。</li><li>开箱即用，尽可能自动配置Spring。</li></ul></blockquote><hr><blockquote><p>一条搬砖流程：Spring+MyBatis+Freemarker，作为近一段时间的收获。  </p></blockquote><p>&emsp;&emsp;下面是项目目录结构:<br><img src="https://i.imgur.com/aGtlmdC.png" alt=""><br><img src="https://i.imgur.com/eoB8PxI.png" alt=""> </p>]]></content>
       
       
       <categories>
